@@ -21,5 +21,4 @@ userSchema.methods.comparePassword = function(password) { // on peut pas utilise
 }
 
 const User = mongoose.model('user', userSchema);
-
 module.exports = User;
